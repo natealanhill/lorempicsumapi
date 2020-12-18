@@ -1,8 +1,46 @@
 #submit{
-    background-color: blue;
+    background-color:gray;
+    background-image: linear-gradient(rgb(197, 197, 197) , gray);
+    color:white;
+    font-weight: bolder;
+    border: 1px solid darkgray;
+    border-radius: 50px;
+    margin-left:45%;
+    /* margin-right: 50%; */
+}    
+body{
+    background-color:black;
     color: white;
 
 }
-body{
-    background-color: white;
+a{
+    text-align: center;
+    color: white;
+}
+#url{
+    align-content: center;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+#wallPaperOTD{
+    background-color: black;
+}
+#randomImage{
+   border: 2px solid white;
+   
+}
+#carouselBlock{
+    background-color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+    text-align: center;
+}
+#pixBox{
+justify-content: center;
+margin: auto;
 }

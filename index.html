@@ -11,41 +11,89 @@
 </head>
 
 <body>
-    <h1>Wall paper of the day</h1>
-    <form>
-        <button id="submit">Refresh</button>
-    </form>
-    <div>
-        <p>Check out this image and see information about the creator below!</p>
-        <img id="randomImage" src="" alt="broken" width="40%" height="40%">
-        <p id="author"></p>
-        <a id="url" href=""></a>
-    </div>
-
-    This is where the image carousel will be
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="" class="d-block w-100 image0" alt="">
-            </div>
-            <div class="carousel-item">
-                <img src="" class="d-block w-100 image1" alt="">
-            </div>
-            <div class="carousel-item">
-                <img src="" class="d-block w-100 image2" alt="">
+    <div id="wallPaperOTD">
+        <h1>Wall paper of the day</h1>
+        <div class="container" id="picBox">
+            <div class="row">
+                <form>
+                    <input id="submit" type="button" onClick="history.go(0)" value="Refresh">
+                </form>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </a>
+
+        <!-- <form>
+            <button >Refresh</button>
+        </form> -->
+        <div class="container" id="picBox">
+            <div class="row">
+                <p>Check out this image and follow the link below to get information about the creator!</p>
+                <!-- <img id="randomImage" src="" alt="broken"> -->
+                <img id="randomImage" src="" alt="broken" width="50%" height="50%">
+                <p id="author"></p>
+                <a id="url" href=""></a>
+            </div>
+        </div>
     </div>
+    <div id='carouselBlock'>
+        <h2>Check out these other images</h2>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="" class="d-block w-100 image0" alt="" width="40%" height="40%">
+                </div>
+                <div class="carousel-item">
+                    <img src="" class="d-block w-100 image1" alt="" width="40%" height="40%">
+                </div>
+                <div class="carousel-item">
+                    <img src="" class="d-block w-100 image2" alt="" width="40%" height="40%">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+        <!-- <div id='carouselBlock2'>
+            <h2>Check out these other images</h2>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="" class="d-block w-100 image0" alt="" width="40%" height="40%">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="" class="d-block w-100 image1" alt="" width="40%" height="40%">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="" class="d-block w-100 image2" alt="" width="40%" height="40%">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div> -->
 
 
+    </div>
+    <div id="wallPaperOTD2">
+        <h1>Want to see more?</h1>
+        <div class="container" id="picBox">
+            <div class="row">
+                <form>
+                    <input id="submit" type="button" onClick="history.go(0)" value="Refresh">
+                </form>
+            </div>
+        </div>
+        <br>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
